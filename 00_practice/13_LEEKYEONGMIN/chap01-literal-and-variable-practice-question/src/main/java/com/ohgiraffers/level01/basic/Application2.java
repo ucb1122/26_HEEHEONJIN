@@ -12,5 +12,9 @@ public class Application2 {
          * 면적 : 455.0
          * 둘레 : 97.8
          *  */
+        double width = 12.5;
+        double length = 36.4;
+        System.out.println("면적 : " + (width*length));
+        System.out.println("둘레 : " + (2*(width+length)));
     }
 }
