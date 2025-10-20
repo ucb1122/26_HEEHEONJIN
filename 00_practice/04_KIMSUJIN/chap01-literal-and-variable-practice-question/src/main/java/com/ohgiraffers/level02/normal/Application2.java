@@ -11,5 +11,15 @@ public class Application2 {
          * 총점 : 201
          * 평균 : 67
          *  */
+
+        double scoreKor = 80.5;
+        double scoreMath = 50.6;
+        double scoreEng = 70.8;
+        double totalScore = scoreKor + scoreMath + scoreEng;
+        double avgScore = totalScore / 3;
+
+        System.out.println("총점 : " + (int) totalScore);
+        System.out.println("평균 : " + (int) avgScore);
+
     }
 }
