@@ -14,5 +14,9 @@ public class Application3 {
          * 남자입니다.
          * */
 
+        char var = 'M';
+        String result = (var == 'M') ? "남자" : "여자";
+        System.out.println(result);
+
     }
 }
