@@ -10,7 +10,8 @@ public class Application {
 
         System.out.println(Calculator.multiplyTwoNubmer(10, 20));
 
-        int mul = Calculator.multiplyTwoNubmer2(10, 20);
-        System.out.println(mul);
+        int a = 10;
+        int b = 20;
+        System.out.println(a + "과 " + b + "의 곱은 " + Calculator.multiplyTwoNubmer2(10, 20) + "입니다.");
     }
 }

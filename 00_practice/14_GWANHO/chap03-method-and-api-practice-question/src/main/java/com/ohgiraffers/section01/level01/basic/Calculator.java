@@ -40,8 +40,6 @@ public class Calculator {
     // 출력하는 기능
 
     public static int multiplyTwoNubmer2(int a, int b) {
-        int mul = a * b;
-        System.out.println(a + "과 " + b + "의 곱은 " + mul + "입니다.");
-        return mul;
+        return a * b;
     }
 }
