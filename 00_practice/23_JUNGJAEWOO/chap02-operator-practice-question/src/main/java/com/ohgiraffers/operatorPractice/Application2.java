@@ -13,6 +13,9 @@ public class Application2 {
          * ------ 출력 결과 --------
          * 청소년
          * */
+        int num = 19;
+        String result = (num <= 13)? "어린이":(num <= 19)? "청소년":"성인";
+        System.out.println(result);
 
     }
 }
