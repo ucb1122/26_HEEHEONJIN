@@ -15,9 +15,8 @@ public class Application2 {
 
         double x = 12.5; // 너비
         double y = 36.4; // 높이
-        double z = 36.4;
 
-        double result1 = (x + z) * 2;
+        double result1 = (x + y) * 2;
         double result2 = x * y;
 
         System.out.println("면적 : " + result2);
