@@ -17,7 +17,7 @@ public class Application1 {
 
         int a = 9;
 
-        String result = (a == 2) ? "짝수다" : "홀수다";
+        String result = (a % 2 == 0) ? "짝수다" : "홀수다";
         System.out.println(result);
 
 
