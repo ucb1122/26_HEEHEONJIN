@@ -14,5 +14,8 @@ public class Application2 {
          * 청소년
          * */
 
+        int num = 25;
+        System.out.println((num<=13)? "어린이": (num<=19)?"청소년":"성인");
+
     }
 }
