@@ -14,7 +14,23 @@ public class Application1 {
          * 나누기한 몫 : 0
          * 나누기한 나머지 : 20
          * */
+        int a = 20;
+        int b = 30;
 
+        int addNum = a + b;
+        System.out.println("더하기 결과 : " + addNum);
+
+        int minusNum = a - b;
+        System.out.println("빼기 결과 : " + minusNum);
+
+        int multiNum = a * b;
+        System.out.println("곱하기 결과 : " + multiNum);
+
+        int divNum = a / b;
+        System.out.println("나누기 결과 : " + divNum);
+
+        int modNum = a % b;
+        System.out.println("나누기한 나머지 : " + modNum);
 
     }
 }
