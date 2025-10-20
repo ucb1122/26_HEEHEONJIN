@@ -15,9 +15,10 @@ public class Application1 {
          * 홀수
          * */
 
-        int a = 22;
+        int num = 9;
 
-        System.out.println((a%2==0)?"짝수다":"홀수다");
 
+        String result = (num % 2 != 0)? "홀수" : "짝수";
+        System.out.println(result);
     }
 }

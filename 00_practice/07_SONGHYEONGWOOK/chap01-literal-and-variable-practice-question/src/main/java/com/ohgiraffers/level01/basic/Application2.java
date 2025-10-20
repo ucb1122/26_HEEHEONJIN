@@ -13,10 +13,14 @@ public class Application2 {
          * 둘레 : 97.8
          *  */
 
-        double weight = 12.5;
+        double width = 12.5;
         double height = 36.4;
 
-        System.out.println("면적 : "+ (weight * height));
-        System.out.println("둘레 : "+ ((2*weight) + (2*height)));
+        double area = width * height;
+        double round = (width + height) * 2;
+
+        System.out.println("면적 : " + area);
+        System.out.println("둘레 : " + round);
+
     }
 }

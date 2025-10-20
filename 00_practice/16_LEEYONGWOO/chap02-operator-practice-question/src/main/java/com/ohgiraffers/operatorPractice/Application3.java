@@ -13,10 +13,12 @@ public class Application3 {
          * ---- 출력 결과 ---
          * 남자입니다.
          * */
-
-        char gender = 'm';
-
-        System.out.println((gender=='M'||gender=='m')?"남자입니다.":"여성입니다.");
-
+        char a='M';
+        if (a=='M'){
+            System.out.println("남자입니다.");
+        }
+        else if (a=='F'){
+            System.out.println("여성입니다.");
+        }
     }
 }

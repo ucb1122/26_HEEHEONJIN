@@ -14,9 +14,9 @@ public class Application3 {
          * 남자입니다.
          * */
 
-        char gender = 'm';
-
-        System.out.println((gender=='M'||gender=='m')?"남자입니다.":"여성입니다.");
-
+        char gender = 'F';
+        // String result1 = (gender == 'M')? "남성입니다.": "여성입니다.";
+        String result2 = (gender == 'M')? "남성입니다.": (gender == 'F')? "여성입니다.":"";
+        System.out.println(result2);
     }
 }
