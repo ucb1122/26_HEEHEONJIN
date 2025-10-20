@@ -30,7 +30,7 @@ public class Application1 {
         // 언더플로우
         // 오버플로우와 반대 개념으로 최소 범위보다 작은 수를 발생시키는 경우 발생하는 현상
         num1--;
-        System.out.println("num1 = " + num1); -128
+        System.out.println("num1 = " + num1); //-128
 
         num1++;
         System.out.println("num1 = " + num1);

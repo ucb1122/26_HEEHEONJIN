@@ -14,6 +14,7 @@ public class Application1 {
         int myAge = AGE;
         System.out.println("myAge = " + myAge);
 
+        
     }
 
 }
