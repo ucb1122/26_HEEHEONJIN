@@ -12,10 +12,10 @@ public class Application {
         System.out.println(num1 + "과" + num2 + " 의 합은 " + result + "입니다.");
 
         String result2 = calcultor.multiTwoNumber(num1, num2);
-        System.out.println(num1 + "과" + num2 + " 의 합은 " + result2 + "입니다.");
+        System.out.println(num1 + "과" + num2 + " 의 곱은 " + result2 + "입니다.");
 
         int result3 = calcultor.multiTwoNumber2(num1, num2);
-        System.out.println(num1 + "과" + num2 + " 의 합은 " + result3 + "입니다.");
+        System.out.println(num1 + "과" + num2 + " 의 곱은 " + result3 + "입니다.");
 
     }
 }
