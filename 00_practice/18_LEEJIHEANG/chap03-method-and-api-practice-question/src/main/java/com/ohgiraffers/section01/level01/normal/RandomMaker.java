@@ -13,10 +13,13 @@ public class RandomMaker {
      * 앞면
      *
      * */
-    public static String tossCoin(int a,int b) {
-        System.out.println("동전을 던집니다.");
-        String result = tossCoin(a,b);
-                return result;
+    public static String tossCoin() {
+        int coinFlip = (int) (Math.random()*2);
+
+        String result = (coinFlip == 0)? "얖면": "뒷면";
+
+        return result;
+
     }
 
 }
