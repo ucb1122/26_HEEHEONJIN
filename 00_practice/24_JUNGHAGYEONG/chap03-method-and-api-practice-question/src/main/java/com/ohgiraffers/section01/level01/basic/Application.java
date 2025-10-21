@@ -6,9 +6,16 @@ public class Application {
 
         Calculator calcultor = new Calculator();
         calcultor.checkMethod();
-        calcultor.sumTwoNumber(10, 20);
-        calcultor.multiTwoNumber(10, 20);
-        calcultor.multiTwoNumber2(10, 20);
+        int num1 = 10;
+        int num2 = 20;
+        String result = calcultor.sumTwoNumber(num1, num2);
+        System.out.println(num1 + "과" + num2 + " 의 합은 " + result + "입니다.");
+
+        String result2 = calcultor.multiTwoNumber(num1, num2);
+        System.out.println(num1 + "과" + num2 + " 의 합은 " + result2 + "입니다.");
+
+        int result3 = calcultor.multiTwoNumber2(num1, num2);
+        System.out.println(num1 + "과" + num2 + " 의 합은 " + result3 + "입니다.");
 
     }
 }
