@@ -14,10 +14,11 @@ public class Application3 {
          * 남자입니다.
          * */
         
-        String gender = "F";
-        
-        String genders = (gender == "M") ? "남자입니다." : (gender == "F") ? "여자입니다." : "잘못된 입력입니다";
-        System.out.println("genders = " + genders);
+//        String gender = "F";
+        char gender = 'M';
+
+        String genders = (gender == 'M') ? "남자입니다." : (gender == 'F') ? "여자입니다." : "잘못된 입력입니다";
+        System.out.println("gender = " + genders);
         
 
     }
