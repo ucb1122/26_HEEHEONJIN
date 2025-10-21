@@ -1,4 +1,4 @@
-package com.lhw.section01.method;
+package com.lhw.section02.package_and_import.test;
 
 public class Calculator {
     public int plusTwoNumbers(int first, int second) {
