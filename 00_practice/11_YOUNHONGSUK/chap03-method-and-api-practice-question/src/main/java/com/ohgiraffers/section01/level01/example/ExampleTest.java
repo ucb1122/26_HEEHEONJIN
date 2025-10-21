@@ -1,5 +1,6 @@
 package com.ohgiraffers.section01.level01.example;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class ExampleTest {
@@ -49,11 +50,17 @@ public class ExampleTest {
     * 틀렸습니다 정답은 2 입니다.
     * */
 
-    public void randommathQuiz(int num1, int num2){
+    public void randommathQuiz(){
         Scanner sc = new Scanner(System.in);
-        System.out.println(num1 + "+" + num2 + " = ?");
-        int sum = num1 + num2;
+        Random r = new Random();
+        int a = r.nextInt(100);
+        int b = r.nextInt(100);
+
+        System.out.println("숫자를 입력하세요");
+
         int check = sc.nextInt();
+        int sum = a + b;
+
         String str = (check == sum)? "정답입니다": "틀렸습니다 정답은" + sum + "입니다";
         System.out.println(str);
     }

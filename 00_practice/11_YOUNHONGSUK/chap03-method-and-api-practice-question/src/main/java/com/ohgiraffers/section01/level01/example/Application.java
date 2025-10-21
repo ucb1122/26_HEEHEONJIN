@@ -7,7 +7,7 @@ public class Application {
 
         et.evenOdd(3);
         et.findMax(1,2);
-        et.randommathQuiz(3,5);
+        et.randommathQuiz();
     }
 
 
