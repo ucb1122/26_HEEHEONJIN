@@ -11,7 +11,7 @@ public class Application7 {
         System.out.println("두 수의 합은? " + calculator.plusTwoNumbers(first,second));
         System.out.println("두 수의 차는? " + calculator.subTwoNumbers(first,second));
         System.out.println("두 수 중 큰 값은? " + Calculator.maxNumberOf(first,second));
-        System.out.println("두 수 중 작은 값은? " + Calculator.minNumberOf(first,second);
+        System.out.println("두 수 중 작은 값은? " + Calculator.minNumberOf(first,second));
 
     }
 }

@@ -22,5 +22,8 @@ public class Application2 {
         String result = (age <= 13)? "어린이" : (age > 19)? "성인": "청소년";
         System.out.println(result);
 
+        int num = 25;
+        System.out.println((num<=13)? "어린이": (num<=19)?"청소년":"성인");
+
     }
 }

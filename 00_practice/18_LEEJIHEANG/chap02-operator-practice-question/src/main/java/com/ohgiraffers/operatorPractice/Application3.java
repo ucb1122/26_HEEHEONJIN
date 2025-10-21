@@ -27,5 +27,9 @@ public class Application3 {
         System.out.println("result2 = " + result2);
 
 
+        char gender = 'm';
+
+        System.out.println((gender=='M'||gender=='m')?"남자입니다.":"여성입니다.");
+
     }
 }
