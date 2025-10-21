@@ -9,6 +9,6 @@ public class Application {
         RandomMaker r = new RandomMaker();
 
 
-        r.tossCoin(); 
+        r.tossCoin();
     }
 }
