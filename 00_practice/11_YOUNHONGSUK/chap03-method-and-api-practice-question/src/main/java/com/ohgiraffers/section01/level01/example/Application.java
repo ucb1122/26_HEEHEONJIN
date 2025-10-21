@@ -6,7 +6,7 @@ public class Application {
         ExampleTest et = new ExampleTest();
 
         et.evenOdd(3);
-        et.findMax(1,2);
+        et.findMax();
         et.randommathQuiz();
     }
 

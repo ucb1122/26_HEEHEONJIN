@@ -30,8 +30,13 @@ public class ExampleTest {
     * 사용자로부터 정수 두개를 입력받아 더큰수를 출력
     * */
 
-    public void findMax(int a, int b){
+    public void findMax(){
 
+        Scanner sc  = new Scanner(System.in);
+        System.out.println("enter a number");
+        int a = sc.nextInt();
+        System.out.println("enter a number");
+        int b = sc.nextInt();
         System.out.println(Math.max(a,b));
 
     }
