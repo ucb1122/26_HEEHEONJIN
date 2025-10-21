@@ -16,7 +16,7 @@ public class ExampleTest {
     홀수입니다
     * */
 
-    public static void evenOdd(int value){
+    public void evenOdd(int value){
         String result = value % 2 == 0 ? "짝수입니다" : "홀수입니다";
         System.out.println(result);
     }
@@ -28,7 +28,7 @@ public class ExampleTest {
      * 사용자로부터 정수 두개를 입력받아 더큰수를 출력
      * */
 
-    public static void findMax(int first, int second){
+    public void findMax(int first, int second){
 
         System.out.println("더 큰 수 : " + Math.max(first, second));
     }
@@ -47,7 +47,7 @@ public class ExampleTest {
      * 틀렸습니다 정답은 2 입니다.
      * */
 
-    public static void randomMathQuiz() {
+    public void randomMathQuiz() {
         int random1 = (int) (Math.random() * 10) + 1;
         int random2 = (int) (Math.random() * 10) + 1;
 
