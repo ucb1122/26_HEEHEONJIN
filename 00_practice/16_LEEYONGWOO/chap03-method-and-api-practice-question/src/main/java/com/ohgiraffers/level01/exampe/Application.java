@@ -1,11 +1,10 @@
-package com.ohgiraffers.section01.level01.exampe;
+package com.ohgiraffers.level01.exampe;
 import java.util.Scanner;
 public class Application {
 
     public static void main(String[] args) {
-        com.ohgiraffers.section01.level01.exampe.ExampleTest exam=new com.ohgiraffers.section01.level01.exampe.ExampleTest();
         Scanner sc=new Scanner(System.in);
-
+        ExampleTest exam=new ExampleTest();
         System.out.print("정수를 입력하세요 : ");
         int num=sc.nextInt();
         exam.evenOdd(num);

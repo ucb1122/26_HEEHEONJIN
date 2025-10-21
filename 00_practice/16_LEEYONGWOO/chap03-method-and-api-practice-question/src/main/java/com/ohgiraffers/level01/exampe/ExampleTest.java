@@ -1,4 +1,4 @@
-package com.ohgiraffers.section01.level01.exampe;
+package com.ohgiraffers.level01.exampe;
 import java.util.Scanner;
 public class ExampleTest {
 
