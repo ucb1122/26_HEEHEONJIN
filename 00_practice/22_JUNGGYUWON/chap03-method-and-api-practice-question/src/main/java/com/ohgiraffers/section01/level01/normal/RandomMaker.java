@@ -16,7 +16,7 @@ public class RandomMaker {
      * */
 
     public String tossCoin(){
-        int randomNumber = (int) (Math.random() * 1);
+        int randomNumber = (int) (Math.random() *100)%2;
         return randomNumber == 0 ? "앞면" : "뒷면";
     }
 }
