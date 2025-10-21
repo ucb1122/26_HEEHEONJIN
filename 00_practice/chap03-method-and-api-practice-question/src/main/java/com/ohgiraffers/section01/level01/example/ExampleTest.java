@@ -1,4 +1,4 @@
-package com.ohgiraffers.section01.level01.exampe;
+package com.ohgiraffers.section01.level01.example;
 
 public class ExampleTest {
 
