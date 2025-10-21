@@ -31,8 +31,29 @@ public class Application5 {
         * */
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("정수하나를 입력하세요 : ");
+        System.out.print("정수하나를 입력하세요 : ");
         int num = sc.nextInt();
+        String str1="";
+        String str2="";
+        int last_num=9;
+        int space = num-1;
+        for(int i=1;i<=num;i++){
+            for(int t=space;t>=0;t--){
+                System.out.print(" ");
+            }
+            String str_num1=i+"";
+            str1=(str1+str_num1);
+            System.out.print(str1);
+            System.out.print(" X 8 + ");
+            System.out.print(i);
+            System.out.print(" = ");
+            String str_num2=last_num+"";
+            str2=(str2+str_num2);
+            System.out.print(str2);
+            last_num--;
+            space--;
+            System.out.println();
+        }
 
     }
 }
