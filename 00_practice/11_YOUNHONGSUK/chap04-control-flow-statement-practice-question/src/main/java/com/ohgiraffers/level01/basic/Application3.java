@@ -19,10 +19,14 @@ public class Application3 {
 
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
-        if(str.charAt(7) ==  1){
+        char ch = str.charAt(7);
+        if(ch ==  '1' || ch ==  '3') {
+
             System.out.println("namja");
         }
-        else System.out.println("yeoja");
+
+        else
+            System.out.println("yeoja");
 
     }
 }

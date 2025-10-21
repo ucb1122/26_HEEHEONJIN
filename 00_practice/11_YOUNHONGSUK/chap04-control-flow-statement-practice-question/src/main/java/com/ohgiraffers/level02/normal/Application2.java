@@ -22,8 +22,8 @@ public class Application2 {
         System.out.println("enter weight");
         int w =  sc.nextInt();
         System.out.println("enter height");
-        int h = sc.nextInt();
-        int bmi = w / (h*h);
+        double h = sc.nextDouble();
+        double bmi = w / (h*h);
 
         if(bmi < 20){
             System.out.println("too skinny");

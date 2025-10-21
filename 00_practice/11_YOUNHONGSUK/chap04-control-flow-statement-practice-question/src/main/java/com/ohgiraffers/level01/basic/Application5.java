@@ -20,9 +20,14 @@ public class Application5 {
         Scanner sc = new Scanner(System.in);
         System.out.println("candy");
         int candy = sc.nextInt();
-        System.out.println("peole");
+
+        System.out.println("people");
         int people = sc.nextInt();
-        System.out.println("Candy per person : " + candy/people);
-        System.out.println(candy%people + " candy left");
+
+        int per = people/candy;
+        int left = people%candy;
+
+        System.out.println("Candy per person : " + per);
+        System.out.println(left + " candy left");
     }
 }

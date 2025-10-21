@@ -22,5 +22,29 @@ public class Application3 {
          * 영어 점수 미달로 불합격입니다.
          * 수학 점수 미달로 불합격입니다.
          * */
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("gook");
+        int a = sc.nextInt();
+        System.out.println("young");
+        int b = sc.nextInt();
+        System.out.println("su");
+        int c = sc.nextInt();
+
+        if(a >= 40 && b >= 40 && c >= 40){
+            if((a+b+c)/3 >= 60 ){
+                System.out.println("합");
+            }
+            else System.out.println("bullhap");
+        }
+        else if (a < 40){
+            System.out.println("gook bull");
+        }
+        else if (b < 40){
+            System.out.println("young bullhap");
+        }
+        else if (c < 40){
+            System.out.println("su bullhap");
+        }
     }
 }

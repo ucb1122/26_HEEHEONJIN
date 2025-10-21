@@ -32,9 +32,9 @@ public class Application3 {
             System.out.println("summer");
         }
         else if(a == 9 || a == 10 || a == 11){
-            System.out.println("winter");
+            System.out.println("fall");
         }
-        else if(a == 12 || a == 1 || a == 12){
+        else if(a == 12 || a == 1 || a == 2){
             System.out.println("winter");
         }
 

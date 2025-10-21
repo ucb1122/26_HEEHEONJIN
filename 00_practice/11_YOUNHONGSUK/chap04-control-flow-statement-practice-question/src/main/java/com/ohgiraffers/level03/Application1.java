@@ -18,5 +18,37 @@ public class Application1 {
          * -- 출력 예시 --
          * 4 + 3 = 7
          */
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter num");
+        int a =  sc.nextInt();
+        System.out.println("enter num");
+        int b = sc.nextInt();
+        System.out.println("enter sign");
+        String sign = sc.next();
+
+        int sum = 0;
+        switch (sign){
+            case "+":  sum = a+b;
+                System.out.println(a + sign + b + "=" + sum);
+                break;
+            case "-" : sum = a-b;
+                System.out.println(a + sign + b + "=" + sum);
+                break;
+            case  "*": sum = a*b;
+                System.out.println(a + sign + b + "=" + sum);
+                break;
+            case  "/": sum = a/b;
+                System.out.println(a + sign + b + "=" + sum);
+                break;
+            case "%" : sum = a%b;
+                System.out.println(a + sign + b + "=" + sum);
+                break;
+            default:
+                System.out.println( "invalid input");
+        }
+
+
+
     }
 }

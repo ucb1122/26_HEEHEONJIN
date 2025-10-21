@@ -26,5 +26,26 @@ public class Application4 {
         *				 	    축하합니다, 합격입니다!
         *
         * */
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("gook");
+        int a = sc.nextInt();
+        System.out.println("young");
+        int b = sc.nextInt();
+        System.out.println("su");
+        int c = sc.nextInt();
+
+        if(a >= 40 && b >= 40 && c >= 40){
+            if((a+b+c)/3 >= 60 ){
+                System.out.println("gook : " + a);
+                System.out.println("young  : " + b);
+                System.out.println("su  : " + c);
+                System.out.println("합 :" + (a+b+c));
+                System.out.println("avg : " + ((a+b+c)/3));
+                System.out.println("cong");
+            } else System.out.println("bullhap");
+        }
+       else System.out.println("bullhap");
+
     }
 }
