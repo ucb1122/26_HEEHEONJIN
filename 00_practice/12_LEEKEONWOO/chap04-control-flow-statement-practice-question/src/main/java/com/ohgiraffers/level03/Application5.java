@@ -29,5 +29,23 @@ public class Application5 {
         *     123456789 x 8 + 9 = 987654321
         * 정수 하나를 입력하세요 : 9
         * */
+
+        Scanner sc = new Scanner(System.in);
+        System.out.print("정수하나를 입력하세요 : ");
+        int num = sc.nextInt();
+
+        for (int i = 1; i <= num; i=(i * 12) + i ){
+            for (int j = 1; j <= num; j++ ) {
+
+
+                int result = i * 8 + j;
+                System.out.println( i  + " x 8 + " + j + " = " + result);
+            }
+        }
+
+
+
+
+
     }
 }
