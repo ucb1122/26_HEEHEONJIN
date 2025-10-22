@@ -33,13 +33,11 @@ public class Application5 {
         Scanner sc = new Scanner(System.in);
         System.out.println("give me a num");
         int n =  sc.nextInt();
-        int i = 1;
         String str = "";
-
             for(int j = 1; j < n+1; j++){
                 str += j;
                 int fin = Integer.parseInt(str);
-                System.out.println(fin + " x " + "8" + " + " + i + " = " + (fin*8+j));
+                System.out.println(fin + " x " + "8" + " + " + j + " = " + (fin*8+j));
 
         }
 
