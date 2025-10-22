@@ -1,8 +1,8 @@
-package chap04_method_api;
+package chap04_method_api.test2;
 
 public class Calculator {
 
-    public int minNumberOf(int first, int second) {
+    public static int minNumberOf(int first, int second) {
 
         return (first > second)? second : first;
     }
