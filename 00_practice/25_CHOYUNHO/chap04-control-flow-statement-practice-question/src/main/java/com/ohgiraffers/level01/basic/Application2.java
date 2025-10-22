@@ -15,5 +15,13 @@ public class Application2 {
          * -- 출력 예시 --
          * 홀수다.
          * */
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("숫자 입력");
+        int num = sc.nextInt();
+        if(num%2==0)
+            System.out.println("짝수다.");
+        else
+            System.out.println("홀수다.");
     }
 }

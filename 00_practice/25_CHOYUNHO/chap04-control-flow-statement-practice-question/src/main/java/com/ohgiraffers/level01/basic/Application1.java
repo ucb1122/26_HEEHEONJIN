@@ -15,7 +15,13 @@ public class Application1 {
          * -- 출력 예시 --
          * 양수다.
          * */
-
+        Scanner sc = new Scanner(System.in);
+        System.out.println("숫자 입력");
+        int num = sc.nextInt();
+        if(num>0)
+            System.out.println("양수다.");
+        else
+            System.out.println("음수다");
     }
 
 }
