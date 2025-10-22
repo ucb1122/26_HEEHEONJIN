@@ -151,10 +151,15 @@ public class Application1 {
      * @param arr
      */
     public void arrayTest7(int[][] arr) {
-        int count = 16;
-        for (int i = arr.length-1; i >= 0; i--) {
-            for (int j = 0; j < arr[i].length; j++) {
-                arr[j][i] = count--;
+        int count = 1;
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = arr[i].length-1; j >= 0; j--) {
+                if (count % 3 == 0) {
+                    arr[j][i] = 0;
+                    count++;
+                    continue;
+                };
+                arr[j][i] = count++;
             }
         }
     }

@@ -15,7 +15,9 @@ public class Application2 {
         int[] d = new int[10];
 
         System.arraycopy(a, 0, d, 0, a.length);
+        System.out.println(Arrays.toString(d));
         System.arraycopy(b, 0, d, 3, b.length);
+        System.out.println(Arrays.toString(d));
         System.arraycopy(c, 0, d, 6, c.length);
 
         System.out.println(Arrays.toString(d));
