@@ -13,20 +13,12 @@ public class Application2 {
         int[] d = new int[10];
 
         // 향상된 for문을 이용하여 위의 a, b, c의 배열의 값을 d의 배열에 합치기한 후 출력
-        int num=0;
-        for(int i : a){
-            d[num++]=i;
-        }
-        for(int i : b) {
-            d[num++] = i;
-        }
+        System.arraycopy(a,0,d,0,a.length);
+        System.arraycopy(b,0,d,a.length,b.length);
+        System.arraycopy(c,0,d,b.length,c.length);
 
-        for(int i : c) {
-            d[num++] = i;
-        }
-
-            for(int i: d){
-            System.out.print(i + " ");
+        for(int i:d){
+            System.out.print(i+" ");
         }
     }
 }
