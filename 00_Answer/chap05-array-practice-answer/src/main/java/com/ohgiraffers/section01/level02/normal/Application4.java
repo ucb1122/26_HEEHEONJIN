@@ -13,39 +13,39 @@ public class Application4 {
 
         int lotto[] = new int[6];
 //      방법 1.
-//		for(int i = 0; i < lotto.length; i++) {
-//			lotto[i] = (int) (Math.random() * 45) + 1;
-//			for(int j = 0; j < i; j++) {
-//				if(lotto[i] == lotto[j]) {
-//					i--;
-//					break;
-//				}
-//			}
-//		}
+		for(int i = 0; i < lotto.length; i++) {
+			lotto[i] = (int) (Math.random() * 45) + 1;
+			for(int j = 0; j < i; j++) {
+				if(lotto[i] == lotto[j]) {
+					i--;
+					break;
+				}
+			}
+		}
 //      방법 2.
-        label:
-        for(int i = 0; i < lotto.length; i++) {
+//        label:
+//        for(int i = 0; i < lotto.length; i++) {
+//
+//            lotto[i] = (int) (Math.random() * 45) + 1;
+//            for(int j = 0; j < i; j++) {
+//                if(lotto[i] == lotto[j]) {
+//                    i--;
+//                    continue label;
+//                }
+//            }
+//        }
 
-            lotto[i] = (int) (Math.random() * 45) + 1;
-            for(int j = 0; j < i; j++) {
-                if(lotto[i] == lotto[j]) {
-                    i--;
-                    continue label;
-                }
-            }
-        }
-
-        int temp = 0;
-        for(int i = 1; i < lotto.length; i++){
-            for(int j = 0; j < lotto.length; j++){
-                if(lotto[i] < lotto[j]){
-                    temp = lotto[i];
-                    lotto[i] = lotto[j];
-                    lotto[j] = temp;
-                }
-            }
-        }
-
+//        int temp = 0;
+//        for(int i = 1; i < lotto.length; i++){
+//            for(int j = 0; j < lotto.length; j++){
+//                if(lotto[i] < lotto[j]){
+//                    temp = lotto[i];
+//                    lotto[i] = lotto[j];
+//                    lotto[j] = temp;
+//                }
+//            }
+//        }
+//
         for(int i = 0; i < lotto.length; i++) {
             System.out.print(lotto[i] + " ");
         }
