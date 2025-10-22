@@ -5,7 +5,7 @@ public class Application1 {
     public static void main(String[] args) {
 
         int[][] arr = new int[4][4];
-        int[][]arr2 = new int[3][4];
+        int[][]arr2 = new int[3][5];
         Application1 app = new Application1();
 
         System.out.println("===1===");
