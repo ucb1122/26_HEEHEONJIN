@@ -1,4 +1,4 @@
-package chap03_operator;
+package chap02_operator;
 
 public class chap03_operator_example {
     public static void main(String[] args) {

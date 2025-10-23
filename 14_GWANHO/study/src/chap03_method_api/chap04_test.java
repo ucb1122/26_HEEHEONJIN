@@ -1,8 +1,8 @@
-package chap04_method_api;
+package chap03_method_api;
 
 //import static chap04_method_api.test1.Calculator.maxNumberOf;
 //import static chap04_method_api.test2.Calculator.minNumberOf;
-import static chap04_method_api.test2.Calculator.*;
+import static chap03_method_api.test2.Calculator.*;
 
 public class chap04_test {
     public static void main(String[] args) {

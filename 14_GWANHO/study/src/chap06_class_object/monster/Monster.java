@@ -1,4 +1,4 @@
-package chap06_class_object;
+package chap06_class_object.monster;
 
 public class Monster {
     private final String name;
@@ -15,8 +15,12 @@ public class Monster {
         }
 
         hp -= damage;
-        if(hp <= 0) {
+        if(!isAlive()) {
             System.out.println(name + " 죽음");
         }
+    }
+
+    public boolean isAlive() {
+        return hp > 0;
     }
 }

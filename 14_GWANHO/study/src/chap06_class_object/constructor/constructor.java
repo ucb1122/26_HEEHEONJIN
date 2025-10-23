@@ -1,4 +1,7 @@
-package chap06_class_object.abstraction;
+package chap06_class_object.constructor;
 
-public class abstraction {
+public class constructor {
+    public static void main(String[] args) {
+
+    }
 }

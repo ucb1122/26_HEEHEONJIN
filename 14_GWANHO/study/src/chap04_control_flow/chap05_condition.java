@@ -1,6 +1,4 @@
-package chap05_control_flow;
-
-import java.util.Scanner;
+package chap04_control_flow;
 
 public class chap05_condition {
     public static void main(String[] args) {

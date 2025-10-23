@@ -1,4 +1,4 @@
-package chap04_method_api.test1;
+package chap03_method_api.test1;
 
 public class Calculator {
 

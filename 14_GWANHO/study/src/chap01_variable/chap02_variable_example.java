@@ -1,4 +1,4 @@
-package chap02_variable;
+package chap01_variable;
 
 /*
        어떤 상점에서 판매하는 상품의 가격이 정수(int) 형태로 주어집니다. 당신은 이 상품을 여러 개 구매하려고 합니다.

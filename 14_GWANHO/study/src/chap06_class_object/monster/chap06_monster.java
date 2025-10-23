@@ -1,4 +1,4 @@
-package chap06_class_object;
+package chap06_class_object.monster;
 
 public class chap06_monster {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package chap04_method_api;
+package chap03_method_api;
 
 public class chap04_random {
     public static void main(String[] args) {

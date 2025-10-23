@@ -1,4 +1,4 @@
-package chap06_class_object;
+package chap06_class_object.member;
 
 public class Member {
     //필드, 전역 변수

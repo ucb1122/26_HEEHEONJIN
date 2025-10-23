@@ -1,4 +1,4 @@
-package chap04_method_api;
+package chap03_method_api;
 
 public class RefClass {
     private int num;

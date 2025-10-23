@@ -1,4 +1,4 @@
-package chap06_class_object;
+package chap06_class_object.member;
 
 public class chap06_member {
     public static void main(String[] args) {
@@ -22,5 +22,10 @@ public class chap06_member {
         for(String hobby : member.hobbys) {
             System.out.print(hobby + " ");
         }
+    }
+
+    public static MemberDTO getMemberDTO(MemberDTO memberDTO) {
+        memberDTO.setNumber(2);
+        return memberDTO;
     }
 }
