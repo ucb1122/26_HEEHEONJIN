@@ -7,10 +7,10 @@ public class Application {
         BookDTO b = new BookDTO();
         b.showBookInfo();
 
-        b.BookDTO("자바의 정석","도우출판","남궁성");
-        b.showBookInfo();
+        BookDTO c =new BookDTO("자바의 정석","도우출판","남궁성");
+        c.showBookInfo();
 
-        b.BookDTO("홍길동전","활빈당","허균",5000000,0.5);
-        b.showBookInfo();
+        BookDTO d=new BookDTO("홍길동전","활빈당","허균",5000000,0.5);
+        d.showBookInfo();
     }
 }

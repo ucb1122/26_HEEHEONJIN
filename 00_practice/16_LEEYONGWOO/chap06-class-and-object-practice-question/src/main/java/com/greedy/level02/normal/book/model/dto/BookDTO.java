@@ -7,16 +7,16 @@ public class BookDTO {
     private int price=0;
     private double discountRate=0.0;
 
-    public void BookDTD(){
+    public BookDTO(){
     }
 
-    public void BookDTO(String title, String publisher, String author){
+    public  BookDTO(String title, String publisher, String author){
         this.title = title;
         this.publisher = publisher;
         this.author = author;
     }
 
-    public void BookDTO(String title, String publisher, String author, int price, double discountRate){
+    public BookDTO(String title, String publisher, String author, int price, double discountRate){
         this.title = title;
         this.publisher = publisher;
         this.author = author;
