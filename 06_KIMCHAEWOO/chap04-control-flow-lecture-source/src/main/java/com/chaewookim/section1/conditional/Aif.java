@@ -2,7 +2,7 @@ package com.chaewookim.section1.conditional;
 
 import java.util.Scanner;
 
-public class If {
+public class Aif {
     public void testSimpleIfStatement() {
         Scanner sc = new Scanner(System.in);
 

@@ -1,4 +1,4 @@
-package com.chaewookim.section1.looping;
+package com.chaewookim.section2.looping;
 
 public class B_nestedFor {
 
