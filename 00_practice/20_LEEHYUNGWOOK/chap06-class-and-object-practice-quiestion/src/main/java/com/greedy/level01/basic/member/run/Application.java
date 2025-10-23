@@ -2,8 +2,6 @@ package com.greedy.level01.basic.member.run;
 
 import com.greedy.level01.basic.member.model.dto.MemberDTO;
 
-import java.lang.reflect.Member;
-
 public class Application {
 
     public static void main(String[] args) {
