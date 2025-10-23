@@ -1,18 +1,19 @@
-package com.rlatjddms.section02.encapsulation.problem1;
+package com.rlatjddms.section02.encapsulation.problem2;
 
 public class Monster {
 
-    String name;
+//    String name;
+    String kinds;
     int hp;
 
-    public void setHp(int hp) {
-        if(hp > 0): {
-            /* this : 인스턴스 변수가 생성 되었을때 자신의 주소를 저장하는 헤퍼런스 주소 */
-            this.hp = hp;
-            System.out.println("양수 값이 입력되어 몬스터의 체력을 입력값을 변경");
-        } else {
-            this.hp = 0;
-            System.out.println("음수 값이ㅜ");
-        }
+    public void setInfo(String info) {
+//        this.name = info;
+        this.kinds = info;
+    }
+
+    public String getInfo() {
+//        return this.name;
+        return this.kinds;
+
     }
 }
