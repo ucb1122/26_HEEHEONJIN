@@ -1,4 +1,4 @@
-package test;
+package chap04_method_api.test1;
 
 public class Calculator {
 
@@ -7,7 +7,7 @@ public class Calculator {
         return (first > second)? second : first;
     }
 
-    public static int maxNumberOf(int first, int second) {
+    public int maxNumberOf(int first, int second) {
 
         return (first > second)? first : second;
     }
