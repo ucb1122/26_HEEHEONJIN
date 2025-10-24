@@ -32,8 +32,7 @@ public class Application {
 
             System.out.print("계속 추가하시겠습니까? (y/n) : ");
             char choice = sc.next().charAt(0);
-            if(choice == 'y' || choice == 'Y') continue;
-            else break;
+            if(choice != 'y' && choice != 'Y') break;
         }
 
         for(int i = 0; i < count; i++){

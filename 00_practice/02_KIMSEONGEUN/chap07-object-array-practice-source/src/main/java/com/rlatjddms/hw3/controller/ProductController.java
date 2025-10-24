@@ -1,6 +1,5 @@
 package com.rlatjddms.hw3.controller;
 
-import com.rlatjddms.hw2.model.dto.StudentDTO;
 import com.rlatjddms.hw3.model.dto.ProductDTO;
 
 import java.util.Scanner;
@@ -8,7 +7,7 @@ import java.util.Scanner;
 public class ProductController {
 
     private ProductDTO[] pro =  new ProductDTO[10];
-    public int count = 0;
+    public static int count = 0;
 
     Scanner sc = new Scanner(System.in);
 
@@ -42,7 +41,6 @@ public class ProductController {
         double tax = sc.nextDouble();
 
         pro[count] = new ProductDTO(pId, pName, price, tax);
-        count++;
     }
 
     public void productPrint() {
