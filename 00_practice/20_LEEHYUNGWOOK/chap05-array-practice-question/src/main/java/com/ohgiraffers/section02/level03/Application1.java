@@ -162,6 +162,7 @@ public class Application1 {
                 arr[j][i] = count++;
             }
         }
+        String str;
     }
 
     /***
