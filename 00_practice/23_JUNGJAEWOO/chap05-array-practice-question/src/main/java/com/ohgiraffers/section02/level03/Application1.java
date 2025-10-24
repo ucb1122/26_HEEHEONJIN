@@ -5,6 +5,21 @@ public class Application1 {
     public static void main(String[] args) {
 
         int[][] arr = new int[4][4];
+        Application1 app = new Application1();
+        app.arrayTest1(arr);
+        app.print(arr);
+        app.arrayTest2(arr);
+        app.print(arr);
+        app.arrayTest3(arr);
+        app.print(arr);
+        app.arrayTest4(arr);
+        app.print(arr);
+        app.arrayTest5(arr);
+        app.print(arr);
+        app.arrayTest6(arr);
+        app.print(arr);
+        app.arrayTest7(arr);
+        app.print(arr);
     }
 
     /**
