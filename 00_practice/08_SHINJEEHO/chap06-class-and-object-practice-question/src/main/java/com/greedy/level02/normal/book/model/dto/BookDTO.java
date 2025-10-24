@@ -1,46 +1,33 @@
 package com.greedy.level02.normal.book.model.dto;
 
-public class BookDTO() {
 
-}
+public class BookDTO {
 
-public class BookDTO{
-    String title;
-    String publisher;
-    String author;
+    private String title;
+    private String publisher;
+    private String author;
+    private int price;
+    private double discountRate;
 
-    public String getTitle() {
-        return title;
+    public BookDTO() {
+
     }
 
-    public void setTitle(String title) {
+    public BookDTO(String title, String publisher, String author) {
+
         this.title = title;
-    }
-
-    public String getPublisher() {
-        return publisher;
-    }
-
-    public void setPublisher(String publisher) {
         this.publisher = publisher;
-    }
-
-    public String getAuthor() {
-        return author;
-    }
-
-    public void setAuthor(String author) {
         this.author = author;
     }
 
-}
+    public BookDTO (String title, String publisher, String author, int price, double discountRate){
 
-public class BookDTO(String title, String publisher, String author, int price, double discountRate) {
-    String title;
-    String publisher;
-    String author;
-    int price;
-    double discountRate;
+        this.title= title;
+        this.publisher= publisher;
+        this.author= author;
+        this.price= price;
+        this.discountRate= discountRate;
+    }
 
     public String getTitle() {
         return title;
@@ -81,5 +68,10 @@ public class BookDTO(String title, String publisher, String author, int price, d
     public void setDiscountRate(double discountRate) {
         this.discountRate = discountRate;
     }
-}
 
+
+    public void printInformation() {
+
+        System.out.println(title + " " + publisher + " " + author + " " + price + " " + discountRate);
+    }
+}
