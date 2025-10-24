@@ -1,4 +1,4 @@
-package com.lhw.section08;
+package com.lhw.section08.object_array;
 
 public class Car {
 
