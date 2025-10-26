@@ -1,6 +1,8 @@
 package com.ohgiraffers.section01.level01.basic;
 
-public class Application2o {
+import java.util.Scanner;
+
+public class Application2 {
 
     public static void main(String[] args) {
 
@@ -23,5 +25,26 @@ public class Application2o {
          * -- 출력 예시 --
          * 준비된 과일이 없습니다.
          * */
+
+//        String[] sarr = new String[5];
+//        sarr[0] = "딸기";
+//        sarr[1] = "바나나";
+//        sarr[2] = "복숭아";
+//        sarr[3] = "키위";
+//        sarr[4] = "사과";
+
+        String[] sarr = {"딸기","바나나", "복숭아", "키위", "사과"};
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("0부터 4까지의 정수를 입력하세요 : ");
+        int num = sc.nextInt();
+
+        if(num >= 0 && num <= 4) { // 0부터 4까지의 정수
+            System.out.println(sarr[num]);
+        } else {
+            System.out.println("준비된 과일이 없습니다.");
+        }
+
     }
 }

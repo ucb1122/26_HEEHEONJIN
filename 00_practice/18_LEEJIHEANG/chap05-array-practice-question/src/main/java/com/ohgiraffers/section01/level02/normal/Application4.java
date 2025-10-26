@@ -1,6 +1,6 @@
 package com.ohgiraffers.section01.level02.normal;
 
-public class Application4o {
+public class Application4 {
     public static void main() {
 
         int[] lotto = new int[6];

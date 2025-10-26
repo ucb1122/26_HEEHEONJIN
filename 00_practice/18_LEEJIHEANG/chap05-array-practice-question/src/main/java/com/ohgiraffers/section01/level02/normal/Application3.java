@@ -2,7 +2,7 @@ package com.ohgiraffers.section01.level02.normal;
 
 import java.util.Scanner;
 
-public class Application3o {
+public class Application3 {
 
     public static void main(String[] args) {
 

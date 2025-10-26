@@ -1,6 +1,6 @@
 package com.ohgiraffers.section02.level01.basic;
 
-public class Application1o {
+public class Application1 {
 
     public static void main(String[] args) {
 

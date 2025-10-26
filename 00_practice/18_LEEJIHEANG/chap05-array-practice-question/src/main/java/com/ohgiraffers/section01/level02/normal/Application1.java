@@ -2,7 +2,7 @@ package com.ohgiraffers.section01.level02.normal;
 
 import java.util.Scanner;
 
-public class Application1o {
+public class Application1 {
 
     public static void main(String[] args) {
         /* 문자열을 하나 입력받아 문자 자료형 배열로 바꾼 뒤
