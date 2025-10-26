@@ -37,12 +37,12 @@ public class Application {
             }
         }
         int avg[] = new int[count];
-        for(int i=0;i<=count;i++){
+        for(int i=0;i<count;i++){
             avg[i] =( (stu[i].getKor()+stu[i].getEng()+stu[i].getMath())/3 );
         }
 
 
-        for(int i=0;i<=count;i++){
+        for(int i=0;i<count;i++){
             System.out.print(stu[i].information()+ " ");
             System.out.println(stu[i].getName()+"의 평균은 : " + avg[i] );
         }
