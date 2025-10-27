@@ -44,6 +44,8 @@ public class Application3 {
                     --ans;
                 }
             }
+        } else {
+            System.out.println("양수 혹은 홀수만 입력해야 합니다.");
         }
         System.out.println(num + "을 입력 받으면 "+ Arrays.toString(arr));
     }
