@@ -53,7 +53,7 @@ public class LibraryMenu {
                     System.out.print("프로그램을 종료하였습니다");
                     break;
                 default:
-                    System.out.print("다시 선택해주세요");
+                    System.out.println("다시 선택해주세요");
                     break;
             }
         } while (op != 0);
@@ -65,14 +65,8 @@ public class LibraryMenu {
 
         int i = 0;
         for (Book book : bList) {
-            System.out.print(i + "번도서 : " + book.toString());
-            if (book instanceof AniBook) {
-                System.out.print(((AniBook) book).getAccessAge());
-            } else if (book instanceof CookBook) {
-                System.out.print(((CookBook) book).isCoupon());
-            }
+            System.out.println(i + "번도서 : " + book.toString());
             i++;
-            System.out.println();
         }
 
     }
@@ -86,9 +80,7 @@ public class LibraryMenu {
 
         int isSearched = 0;
         for (Book book : searchList) {
-            if (book == null) {
-                continue;
-            } else {
+            if (book != null) {
                 System.out.println(book.getTitle());
                 isSearched++;
             }

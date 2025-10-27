@@ -14,7 +14,7 @@ public class CookBook extends Book {
 
     //toString
     public String toString() {
-        return super.toString() + " / " + coupon;
+        return super.toString() + coupon;
     }
 
     //getter
