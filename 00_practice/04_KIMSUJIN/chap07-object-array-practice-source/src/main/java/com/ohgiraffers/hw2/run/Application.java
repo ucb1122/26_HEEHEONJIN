@@ -47,7 +47,10 @@ public class Application {
                     System.out.print("수학점수 : ");
                     int mat = sc.nextInt();
                     studentArr[cnt].setMat(mat);
+
                     cnt++;
+
+                    sc.nextLine();
                 }else {
                     //인원추가 안할때
                     System.out.println("인원추가 종료함");
