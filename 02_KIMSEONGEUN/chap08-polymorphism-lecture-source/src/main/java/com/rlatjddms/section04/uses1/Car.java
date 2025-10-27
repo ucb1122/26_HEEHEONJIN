@@ -1,4 +1,7 @@
 package com.rlatjddms.section04.uses1;
 
-public class Car {
+public abstract class Car {
+
+    public abstract void go();
+    public abstract void stop();
 }
